@@ -1,4 +1,4 @@
-# MR Star Home Assistant Integration
+# MR Star Home Assistant Integration [![Quality assurance](https://github.com/mishamyrt/mr-star-hass/actions/workflows/qa.yaml/badge.svg)](https://github.com/mishamyrt/mr-star-hass/actions/workflows/qa.yaml)
 
 Integration for [MR Star Garland](https://github.com/mishamyrt/mr-star-ble) devices.
 
