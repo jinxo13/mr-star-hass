@@ -1,0 +1,25 @@
+name: Quality assurance
+
+on:
+  push:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: make configure
+
+      - name: Check code style
+        run: make lint
+
+  hassfest:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate with hassfest
+        uses: home-assistant/actions/hassfest@master
