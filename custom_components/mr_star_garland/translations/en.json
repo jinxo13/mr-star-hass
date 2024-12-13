@@ -1,0 +1,20 @@
+{
+    "config": {
+      "error": {
+        "device_not_found": "Could not find the garland. Please check that the garland is in the Bluetooth range.",
+        "unknown_error": "An error occurred while connecting to the garland. Please try again."
+      },
+      "step": {
+        "user": {
+          "data": {
+            "address": "Device"
+          },
+          "title": "Garland setup"
+        }
+      },
+      "abort": {
+        "devices_not_found": "Could not find the garland. Please check that the garland is in the Bluetooth range.",
+        "not_supported": "The device is not supported."
+      }
+    }
+}

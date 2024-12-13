@@ -1,0 +1,3 @@
+.ruff_cache
+venv
+.DS_Store
